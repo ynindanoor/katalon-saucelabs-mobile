@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>inputUsername</name>
+   <tag></tag>
+   <elementGuidId>4d64dcfb-5224-4207-a52a-6f7fc9087055</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <locator>test-Username</locator>
+   <locatorCollection>
+      <entry>
+         <key>ID</key>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@username-textfield = '//android.widget.EditText[@content-desc=&quot;test-Username&quot;]']</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value>test-Username</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+   <platform>ANDROID</platform>
+</MobileElementEntity>

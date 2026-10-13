@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>txtSauceLabsBackpack</name>
+   <tag></tag>
+   <elementGuidId>9906dd7d-6f83-4d36-8eea-2607e83d4ba0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <locator>new UiSelector().text(&quot;Sauce Labs Backpack&quot;)</locator>
+   <locatorCollection>
+      <entry>
+         <key>ID</key>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().text(&quot;Sauce Labs Backpack&quot;)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+      </entry>
+      <entry>
+         <key>NAME</key>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>ANDROID_UI_AUTOMATOR</locatorStrategy>
+   <platform>ANDROID</platform>
+</MobileElementEntity>

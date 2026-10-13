@@ -1,0 +1,409 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.7.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m63430[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:63430/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.0.113:63430/wd/hub
+	http://127.0.0.1:63430/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@8.6.1 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 11 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Downloads\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":63463,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":63464,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Downloads\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":63463,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":63464,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Session created with session id: 07675d55-6317-429e-a232-9dd4d79d2849
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\1320\.katalon\tools\android_sdk' (newest first):
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m     C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Retrieving device list
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Using device: RRCT304745Y
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Subscribing b67860c5-d6ef-4d18-9cd2-7e00f3e30a52 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Subscribing b67860c5-d6ef-4d18-9cd2-7e00f3e30a52 to topic 'uiautomator2:sessionUdidContended'
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Subscribing b67860c5-d6ef-4d18-9cd2-7e00f3e30a52 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Unsubscribing b67860c5-d6ef-4d18-9cd2-7e00f3e30a52 from topic 'uiautomator2:sessionUdidContended'
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Unsubscribing b67860c5-d6ef-4d18-9cd2-7e00f3e30a52 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Downloads\APK-sauce-labs.2.7.1.apk'
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Relaxing hidden api policy
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Server packages are not going to be (re)installed
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\lib\apksigner.jar'
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;43m[07675d55][0m[38;5;229m[ADB][0m 'C:\Users\1320\Downloads\APK-sauce-labs.2.7.1.apk' is signed with a non-default certificate
+[38;5;43m[07675d55][0m[38;5;123m[BaseDriver][0m Unsubscribing b67860c5-d6ef-4d18-9cd2-7e00f3e30a52 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;43m[07675d55][0m[38;5;-156m[AndroidUiautomator2Driver@b678][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 101262 ms - 2207
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":63599,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":63600,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":63599,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":63600,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Session created with session id: c0e133c2-3a87-43ba-984d-508d1de5dd1a
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Retrieving device list
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Using device: RRCT304745Y
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Subscribing b22904ab-59e3-4045-b036-5c8fe25fec6a to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Subscribing b22904ab-59e3-4045-b036-5c8fe25fec6a to topic 'uiautomator2:sessionUdidContended'
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Subscribing b22904ab-59e3-4045-b036-5c8fe25fec6a to topic 'uiautomator2:sessionUdidReleased'
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Unsubscribing b22904ab-59e3-4045-b036-5c8fe25fec6a from topic 'uiautomator2:sessionUdidContended'
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Unsubscribing b22904ab-59e3-4045-b036-5c8fe25fec6a from topic 'uiautomator2:sessionUdidReleased'
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Katalon Studio\katalon-saucelabs-mobile\Apk\APK-sauce-labs.2.7.1.apk'
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Relaxing hidden api policy
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Server packages are not going to be (re)installed
+[38;5;150m[c0e133c2][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;150m[c0e133c2][0m[38;5;123m[BaseDriver][0m Unsubscribing b22904ab-59e3-4045-b036-5c8fe25fec6a from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;150m[c0e133c2][0m[38;5;-174m[AndroidUiautomator2Driver@b229][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 17638 ms - 2420
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":51084,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":51085,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":51084,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":51085,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Session created with session id: 701ff96a-4b13-441b-9937-564e1f02e54c
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Retrieving device list
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Using device: RRCT304745Y
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Subscribing 4e9f9727-dc93-4100-95c0-07a716304310 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Subscribing 4e9f9727-dc93-4100-95c0-07a716304310 to topic 'uiautomator2:sessionUdidContended'
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Subscribing 4e9f9727-dc93-4100-95c0-07a716304310 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Unsubscribing 4e9f9727-dc93-4100-95c0-07a716304310 from topic 'uiautomator2:sessionUdidContended'
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Unsubscribing 4e9f9727-dc93-4100-95c0-07a716304310 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Katalon Studio\katalon-saucelabs-mobile\Apk\APK-sauce-labs.2.7.1.apk'
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Relaxing hidden api policy
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Server packages are not going to be (re)installed
+[38;5;44m[701ff96a][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;44m[701ff96a][0m[38;5;123m[BaseDriver][0m Unsubscribing 4e9f9727-dc93-4100-95c0-07a716304310 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;44m[701ff96a][0m[38;5;-191m[AndroidUiautomator2Driver@4e9f][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 19526 ms - 2423
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs-stg.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":49312,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":49313,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs-stg.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":49312,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":49313,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Session created with session id: 415d42f8-07bb-41fb-9747-ab5512fb281e
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Retrieving device list
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Using device: RRCT304745Y
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Subscribing cc6b8298-3373-43e6-9c87-b74e790ffd08 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Subscribing cc6b8298-3373-43e6-9c87-b74e790ffd08 to topic 'uiautomator2:sessionUdidContended'
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Subscribing cc6b8298-3373-43e6-9c87-b74e790ffd08 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Unsubscribing cc6b8298-3373-43e6-9c87-b74e790ffd08 from topic 'uiautomator2:sessionUdidContended'
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Unsubscribing cc6b8298-3373-43e6-9c87-b74e790ffd08 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Katalon Studio\katalon-saucelabs-mobile\Apk\APK-sauce-labs-stg.2.7.1.apk'
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Relaxing hidden api policy
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Server packages are not going to be (re)installed
+[38;5;162m[415d42f8][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;162m[415d42f8][0m[38;5;123m[BaseDriver][0m Unsubscribing cc6b8298-3373-43e6-9c87-b74e790ffd08 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;162m[415d42f8][0m[38;5;-147m[AndroidUiautomator2Driver@cc6b][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 16941 ms - 2447
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":50433,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":50434,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":50433,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":50434,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Session created with session id: 2dcf266d-a7ce-4544-aa2c-c2dab8a937fe
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Retrieving device list
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Using device: RRCT304745Y
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Subscribing eba5f2a7-942f-43b3-8fda-0a8a69c4d5da to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Subscribing eba5f2a7-942f-43b3-8fda-0a8a69c4d5da to topic 'uiautomator2:sessionUdidContended'
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Subscribing eba5f2a7-942f-43b3-8fda-0a8a69c4d5da to topic 'uiautomator2:sessionUdidReleased'
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Unsubscribing eba5f2a7-942f-43b3-8fda-0a8a69c4d5da from topic 'uiautomator2:sessionUdidContended'
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Unsubscribing eba5f2a7-942f-43b3-8fda-0a8a69c4d5da from topic 'uiautomator2:sessionUdidReleased'
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Katalon Studio\katalon-saucelabs-mobile\Apk\APK-sauce-labs.2.7.1.apk'
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Relaxing hidden api policy
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Server packages are not going to be (re)installed
+[38;5;209m[2dcf266d][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;209m[2dcf266d][0m[38;5;123m[BaseDriver][0m Unsubscribing eba5f2a7-942f-43b3-8fda-0a8a69c4d5da from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;209m[2dcf266d][0m[38;5;-162m[AndroidUiautomator2Driver@eba5][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 18616 ms - 2420
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Downloads\\Mobile-Final-Katalon-Project - Duplicate-20261011T080004Z-1-001\\Mobile-Final-Katalon-Project - Duplicate\\androidApp\\APK-sauce-labs.2.7.1.apk","appium:appium:appWaitActivity":"com.swaglabsmobileapp.MainActivity","appium:appium:appWaitForLaunch":true,"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"7d5068170404","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":54477,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":54478,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Downloads\\Mobile-Final-Katalon-Project - Duplicate-20261011T080004Z-1-001\\Mobile-Final-Katalon-Project - Duplicate\\androidApp\\APK-sauce-labs.2.7.1.apk","appium:appium:appWaitActivity":"com.swaglabsmobileapp.MainActivity","appi…
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;4m[AndroidUiautomator2Driver@2487][0m The following provided capabilities were not recognized by this driver:
+[38;5;4m[AndroidUiautomator2Driver@2487][0m   deviceId
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Session created with session id: d96b9b07-e3fe-48a6-b979-bb2d99a85708
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Retrieving device list
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Using device: RRCT304745Y
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Subscribing 24872fd4-9e78-4069-a533-d432027678aa to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Subscribing 24872fd4-9e78-4069-a533-d432027678aa to topic 'uiautomator2:sessionUdidContended'
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Subscribing 24872fd4-9e78-4069-a533-d432027678aa to topic 'uiautomator2:sessionUdidReleased'
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Unsubscribing 24872fd4-9e78-4069-a533-d432027678aa from topic 'uiautomator2:sessionUdidContended'
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Unsubscribing 24872fd4-9e78-4069-a533-d432027678aa from topic 'uiautomator2:sessionUdidReleased'
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Downloads\Mobile-Final-Katalon-Project - Duplicate-20261011T080004Z-1-001\Mobile-Final-Katalon-Project - Duplicate\androidApp\APK-sauce-labs.2.7.1.apk'
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Relaxing hidden api policy
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Server packages are not going to be (re)installed
+[38;5;41m[d96b9b07][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;41m[d96b9b07][0m[38;5;123m[BaseDriver][0m Unsubscribing 24872fd4-9e78-4069-a533-d432027678aa from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;41m[d96b9b07][0m[38;5;4m[AndroidUiautomator2Driver@2487][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 18970 ms - 2921
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 9 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Data\\apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":49387,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":49388,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Data\\apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":49387,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":49388,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Session created with session id: c0a0f2f6-564d-4eaf-adec-3d5df49addde
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Retrieving device list
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Using device: RRCT304745Y
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Subscribing 54374922-5922-4017-9cb1-bffadeba4e21 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Subscribing 54374922-5922-4017-9cb1-bffadeba4e21 to topic 'uiautomator2:sessionUdidContended'
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Subscribing 54374922-5922-4017-9cb1-bffadeba4e21 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Unsubscribing 54374922-5922-4017-9cb1-bffadeba4e21 from topic 'uiautomator2:sessionUdidContended'
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Unsubscribing 54374922-5922-4017-9cb1-bffadeba4e21 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Katalon Studio\katalon-saucelabs-mobile\Data\apk\APK-sauce-labs.2.7.1.apk'
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Relaxing hidden api policy
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Server packages are not going to be (re)installed
+[38;5;172m[c0a0f2f6][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;172m[c0a0f2f6][0m[38;5;123m[BaseDriver][0m Unsubscribing 54374922-5922-4017-9cb1-bffadeba4e21 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;172m[c0a0f2f6][0m[38;5;2m[AndroidUiautomator2Driver@5437][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 15914 ms - 2456
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Data\\apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":60684,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":60685,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\1320\\Katalon Studio\\katalon-saucelabs-mobile\\Data\\apk\\APK-sauce-labs.2.7.1.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:fullReset":false,"appium:mjpegServerPort":60684,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":60685,"appium:udid":"RRCT304745Y"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Session created with session id: 5a284707-0f8c-44c8-8b56-76bf2de9fb57
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Retrieving device list
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Using device: RRCT304745Y
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Subscribing 0eb1d7a7-930a-4f07-aa1b-2f64fb7d1f84 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Subscribing 0eb1d7a7-930a-4f07-aa1b-2f64fb7d1f84 to topic 'uiautomator2:sessionUdidContended'
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Subscribing 0eb1d7a7-930a-4f07-aa1b-2f64fb7d1f84 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Unsubscribing 0eb1d7a7-930a-4f07-aa1b-2f64fb7d1f84 from topic 'uiautomator2:sessionUdidContended'
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Unsubscribing 0eb1d7a7-930a-4f07-aa1b-2f64fb7d1f84 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\1320\Katalon Studio\katalon-saucelabs-mobile\Data\apk\APK-sauce-labs.2.7.1.apk'
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Relaxing hidden api policy
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Package name: 'com.swaglabsmobileapp'
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Main activity name: 'com.swaglabsmobileapp.SplashActivity'
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Server packages are not going to be (re)installed
+[38;5;168m[5a284707][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;168m[5a284707][0m[38;5;123m[BaseDriver][0m Unsubscribing 0eb1d7a7-930a-4f07-aa1b-2f64fb7d1f84 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: Session ID is not set, but saw a URL that requires it (/)
+[38;5;168m[5a284707][0m[38;5;-149m[AndroidUiautomator2Driver@0eb1][0m Restoring hidden api policy to the device default configuration
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 16981 ms - 2456
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> GET /wd/hub/status 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 110
+[38;5;86m[HTTP][0m --> POST /wd/hub/session {"capabilities":{"firstMatch":[{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:mjpegServerPort":50044,"appium:newCommandTimeout":1800,"appium:platformVersion":"14","appium:systemPort":8279,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A528B (Android 14)","appium:mjpegServerPort":50044,"appium:newCommandTimeout":1800,"appium:platformVersion":"14","appium:systemPort":8279,"appium:udid":"RRCT304745Y","platformName":"ANDROID"}}
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium v3.7.0 creating new AndroidUiautomator2Driver (v8.6.1) session
+[38;5;131m[AppiumDriver@e4e7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;131m[AppiumDriver@e4e7][0m Appium's BaseDriver version is 10.8.0
+[38;5;131m[AppiumDriver@e4e7][0m AndroidUiautomator2Driver's BaseDriver version is 10.8.0
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Session created with session id: e7cdb754-e361-4703-ac3f-307190fcdbe6
+[38;5;79m[e7cdb754][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Retrieving device list
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Using device: RRCT304745Y
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Subscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Subscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 to topic 'uiautomator2:sessionUdidContended'
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Subscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 to topic 'uiautomator2:sessionUdidReleased'
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Unsubscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 from topic 'uiautomator2:sessionUdidContended'
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Unsubscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 from topic 'uiautomator2:sessionUdidReleased'
+[38;5;79m[e7cdb754][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;79m[e7cdb754][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Relaxing hidden api policy
+[38;5;79m[e7cdb754][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\1320\.katalon\tools\android_sdk\build-tools\android-14\aapt2.exe'
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Server packages are not going to be (re)installed
+[38;5;79m[e7cdb754][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Starting UIAutomator2 server 10.6.4
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Using UIAutomator2 server from 'C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v10.6.4.apk' and test from 'C:\Users\1320\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m socket hang up
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m socket hang up
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Determined the downstream protocol as 'W3C'
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Screen already unlocked, doing nothing
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Unsubscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Subscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 to topic 'uiautomator2:sessionUdidClaimed'
+[38;5;79m[e7cdb754][0m[38;5;131m[AppiumDriver@e4e7][0m New AndroidUiautomator2Driver session created successfully, session e7cdb754-e361-4703-ac3f-307190fcdbe6 added to master session list
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 10351 ms - 1011
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 404 5 ms - 2543
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/timeouts {"implicit":60000}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/timeouts 200 3 ms - 14
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/execute/sync {"script":"mobile: getSystemBars","args":[]}
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/execute/sync 200 458 ms - 151
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> POST /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/execute/sync {"script":"mobile: activateApp","args":[{"appId":"com.swaglabsmobileapp","bundleId":"com.swaglabsmobileapp"}]}
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/execute/sync 200 943 ms - 14
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/source 
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Replacing sessionId 3c6aa3b6-e6a7-439f-bdb0-d41bcec25fc0 with e7cdb754-e361-4703-ac3f-307190fcdbe6
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/source 200 184 ms - 24149
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> GET /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/screenshot 
+[38;5;86m[HTTP][0m <-- GET /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6/screenshot 200 579 ms - 331972
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> DELETE /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6 
+[38;5;79m[e7cdb754][0m[38;5;123m[BaseDriver][0m Unsubscribing 82e8f79a-c633-4e5f-8d44-c95150801ad6 from topic 'uiautomator2:sessionUdidClaimed'
+[38;5;79m[e7cdb754][0m[38;5;86m[HTTP][0m --> DELETE /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6 
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;79m[e7cdb754][0m[38;5;-24m[AndroidUiautomator2Driver@82e8][0m Restoring hidden api policy to the device default configuration
+[38;5;79m[e7cdb754][0m[38;5;131m[AppiumDriver@e4e7][0m Removing session e7cdb754-e361-4703-ac3f-307190fcdbe6 from our master session list
+[38;5;86m[HTTP][0m <-- DELETE /wd/hub/session/e7cdb754-e361-4703-ac3f-307190fcdbe6 200 4021 ms - 14
